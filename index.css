@@ -1,0 +1,54 @@
+.title{
+    float:left;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: pink;
+    text-transform: uppercase;
+}
+.login{
+    float: right;
+    list-style: none;
+    font-size: 20px;
+    color: pink;
+    
+}
+.image{
+   object-fit: cover;
+   height:100%;
+   width:100%;
+   margin:40px;
+
+  }
+  #cards{
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  
+  
+ 
+  }
+  .card{
+    width:30%;
+    margin: 20px;
+    display: inline-block;
+    margin: 10px;
+    gap:5vh;
+    border: 1px solid pink;
+    
+    
+  }
+
+.image2{
+  padding: 10px;
+  object-fit: cover;
+    height: 200px;
+    width: 200px;
+    }
+
+    .description,.price,.rating{
+      margin: 10px;
+      text-align: end;
+    }
+    
